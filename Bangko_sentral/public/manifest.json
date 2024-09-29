@@ -1,0 +1,16 @@
+{
+  "name": "Authenticate App",
+  "short_name": "Auth",
+  "description": "Authenticate Application",
+  "start_url": "login",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "150x150",
+      "type": "images/png"
+    }
+  ]
+}
