@@ -69,6 +69,7 @@
       <div class="card-body p-3">
         <div class="text-center">
           <h3>Login</h3>
+          <p>Login with your username and password</p>
         </div>
         <?php if (!empty($data['login_form_errors_messages'])) : ?>
           <div id="alertPlaceholder">
@@ -109,6 +110,18 @@
             class="mb-3 d-flex justify-content-center border rounded py-3 <?=$data['checkbox_recaptcha_red_border']?>"
             style="background-image: url('assets/img/bg_for_recaptcha.png');">
             <div class="g-recaptcha" data-sitekey="6Lc4n1IqAAAAAFUyj58fyk15QKbvus58MDuevuv0"></div>
+          </div>
+
+          <!-- New checkbox for remembering the password -->
+          <div class="form-check mb-3">
+            <input
+              id="rememberPassword"
+              type="checkbox"
+              class="form-check-input"
+              name="remember_password">
+            <label for="rememberPassword" class="form-check-label">
+              Remember Password
+            </label>
           </div>
 
           <div>

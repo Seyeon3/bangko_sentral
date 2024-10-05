@@ -82,6 +82,7 @@
       <div class="card-body p-3">
         <div class="text-center">
           <h3>Register</h3>
+          <p>Create your account to get started!</p>
         </div>
         <?php if (!empty($data['register_form_success_message'])) : ?>
           <div id="alertPlaceholder">

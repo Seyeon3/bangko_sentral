@@ -21,7 +21,7 @@
           <a class="nav-link <?= $data['current_page'] == 'Register' ? 'active' : '' ?>" aria-current="page" href="register">Register</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link <?= $data['current_page'] == 'Send OTP' ? 'active' : '' ?>" aria-current="page" href="PasswordReset">Forgot Password</a>
+          <a class="nav-link <?= $data['current_page'] == 'Forgot Password' ? 'active' : '' ?>" aria-current="page" href="ForgotPass">Forgot Password</a>
         </li>
       </ul>
     </div>

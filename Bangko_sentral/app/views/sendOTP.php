@@ -44,8 +44,8 @@
         /* Alert message styling for success and error */
         .alert {
             padding: 10px;
-            border-radius: 5px; /* Rounded corners for alerts */
-            margin-bottom: 20px; /* Spacing between alerts and other elements */
+            border-radius: 5px; 
+            margin-bottom: 20px;
         }
 
         .alert-danger {
@@ -81,6 +81,7 @@
             <div class="card-body">
                 <div class="text-center">
                     <h3>Verify OTP</h3>
+                    <p>Please enter the OTP sent to your email.</p>
                 </div>
 
                 <?php if (isset($data['error'])): ?>
@@ -108,7 +109,7 @@
                     </div>
 
                     <button type="submit" class="btn btn-primary btn-lg w-100">
-                    Submit
+                    Submit 
                     </button>
                 </form>
             </div>

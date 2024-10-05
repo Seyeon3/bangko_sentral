@@ -57,7 +57,7 @@ class SendOTPController extends Controller
         }
 
         // Reload the form with the message or error
-        $this->loadView("PasswordReset", $data);
+        $this->loadView("ForgotPass", $data);
     }
 
     // Verify the OTP entered by the user
