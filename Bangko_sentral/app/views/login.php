@@ -62,20 +62,6 @@
       padding: 20px;
     }
 
-    /* Forgot password link styling */
-    .forgot-password {
-      text-align: center;
-      margin-top: 10px;
-    }
-
-    .forgot-password a {
-      color: #002366;
-      text-decoration: none;
-    }
-
-    .forgot-password a:hover {
-      text-decoration: underline;
-    }
   </style>
 
   <div class="container d-flex flex-column align-items-center p-3">
